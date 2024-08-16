@@ -59,11 +59,6 @@ def takecommand():
         return "none"
     return query
 
-
-
-
-
-
         
 #Defining wish function here
 def wish():
@@ -76,9 +71,6 @@ def wish():
     else:
         speak("Good evening maam")
     speak("I am jarvis, your personal assistant, please tell me how may i help you maam")
-
-
-
 
 
 #Defining sendEmail fuction here
@@ -108,8 +100,6 @@ if __name__ == "__main__":
     while True:
         
         query = takecommand().lower()
-        
-
        
          #Assigning tasks here
         if "jarvis open notepad" and "open notepad"in query:
